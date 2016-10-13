@@ -23,6 +23,12 @@ function ding_serendipity_taxonomy_term_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
     ),
     'entity_type' => 'taxonomy_term',
     'field_name' => 'field_taxonomy_ting_objects',

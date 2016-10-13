@@ -1,8 +1,7 @@
 <?php
-
 /**
  * @file
- * ding_news.features.taxonomy.inc
+ * ding_interests.features.taxonomy.inc
  */
 
 /**

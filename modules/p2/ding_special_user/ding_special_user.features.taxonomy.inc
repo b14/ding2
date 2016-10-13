@@ -1,8 +1,7 @@
 <?php
-
 /**
  * @file
- * special_user.features.taxonomy.inc
+ * ding_special_user.features.taxonomy.inc
  */
 
 /**
@@ -20,4 +19,3 @@ function ding_special_user_taxonomy_default_vocabularies() {
     ),
   );
 }
-

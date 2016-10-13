@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * ding_message_p2_installer.features.field_base.inc
@@ -109,14 +108,7 @@ function ding_message_p2_installer_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_list_id',
-    'foreign keys' => array(
-      'eck_ding_type' => array(
-        'columns' => array(
-          'target_id' => 'id',
-        ),
-        'table' => 'eck_ding_type',
-      ),
-    ),
+    'foreign keys' => array(),
     'indexes' => array(
       'target_id' => array(
         0 => 'target_id',

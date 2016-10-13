@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * ding_interests.features.field_base.inc

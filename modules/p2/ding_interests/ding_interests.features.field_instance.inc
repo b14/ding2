@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * ding_interests.features.field_instance.inc
@@ -26,6 +25,12 @@ function ding_interests_field_default_field_instances() {
         ),
         'type' => 'image',
         'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'taxonomy_term',
@@ -66,6 +71,18 @@ function ding_interests_field_default_field_instances() {
           'upload' => 0,
           'youtube' => 0,
         ),
+        'manualcrop_crop_info' => TRUE,
+        'manualcrop_default_crop_area' => TRUE,
+        'manualcrop_enable' => FALSE,
+        'manualcrop_inline_crop' => FALSE,
+        'manualcrop_instant_crop' => FALSE,
+        'manualcrop_instant_preview' => TRUE,
+        'manualcrop_keyboard' => TRUE,
+        'manualcrop_maximize_default_crop_area' => FALSE,
+        'manualcrop_require_cropping' => array(),
+        'manualcrop_styles_list' => array(),
+        'manualcrop_styles_mode' => 'include',
+        'manualcrop_thumblist' => FALSE,
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
@@ -73,8 +90,7 @@ function ding_interests_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance:
-  // 'taxonomy_term-ding_content_tags-field_search_string'
+  // Exported field_instance: 'taxonomy_term-ding_content_tags-field_search_string'
   $field_instances['taxonomy_term-ding_content_tags-field_search_string'] = array(
     'bundle' => 'ding_content_tags',
     'default_value' => NULL,
@@ -86,6 +102,12 @@ function ding_interests_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 0,
       ),
     ),
@@ -108,8 +130,7 @@ function ding_interests_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance:
-  // 'taxonomy_term-ding_content_tags-field_status'
+  // Exported field_instance: 'taxonomy_term-ding_content_tags-field_status'
   $field_instances['taxonomy_term-ding_content_tags-field_status'] = array(
     'bundle' => 'ding_content_tags',
     'default_value' => array(
@@ -126,6 +147,12 @@ function ding_interests_field_default_field_instances() {
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'taxonomy_term',
@@ -144,8 +171,7 @@ function ding_interests_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance:
-  // 'taxonomy_term-ding_content_tags-field_title_image'
+  // Exported field_instance: 'taxonomy_term-ding_content_tags-field_title_image'
   $field_instances['taxonomy_term-ding_content_tags-field_title_image'] = array(
     'bundle' => 'ding_content_tags',
     'deleted' => 0,
@@ -160,6 +186,12 @@ function ding_interests_field_default_field_instances() {
         ),
         'type' => 'image',
         'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'taxonomy_term',
@@ -200,6 +232,18 @@ function ding_interests_field_default_field_instances() {
           'upload' => 0,
           'youtube' => 0,
         ),
+        'manualcrop_crop_info' => TRUE,
+        'manualcrop_default_crop_area' => TRUE,
+        'manualcrop_enable' => FALSE,
+        'manualcrop_inline_crop' => FALSE,
+        'manualcrop_instant_crop' => FALSE,
+        'manualcrop_instant_preview' => TRUE,
+        'manualcrop_keyboard' => TRUE,
+        'manualcrop_maximize_default_crop_area' => FALSE,
+        'manualcrop_require_cropping' => array(),
+        'manualcrop_styles_list' => array(),
+        'manualcrop_styles_mode' => 'include',
+        'manualcrop_thumblist' => FALSE,
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',

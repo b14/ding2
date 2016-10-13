@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * ding_special_user.features.field_base.inc
@@ -48,4 +47,3 @@ function ding_special_user_field_default_field_bases() {
 
   return $field_bases;
 }
-

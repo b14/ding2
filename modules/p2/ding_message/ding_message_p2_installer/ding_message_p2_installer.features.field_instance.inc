@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * ding_message_p2_installer.features.field_instance.inc

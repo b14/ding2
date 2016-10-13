@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * ding_interests.field_group.inc
@@ -12,9 +11,7 @@ function ding_interests_field_group_info() {
   $export = array();
 
   $field_group = new stdClass();
-  /* Edit this to true to make a default field_group disabled initially */
-
-  $field_group->disabled = FALSE;
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
   $field_group->identifier = 'group_ding_interests|taxonomy_term|ding_content_tags|form';
   $field_group->group_name = 'group_ding_interests';
