@@ -196,6 +196,9 @@ function ding_ddbasic_entity_view_mode_alter(&$view_mode, $context) {
     if (theme_get_setting('ding_group_disable_overlay') && $context['entity']->type == 'ding_group') {
       $view_mode = 'teaser_no_overlay';
     }
+    if (theme_get_setting('ding_page_disable_overlay') && $context['entity']->type == 'ding_page') {
+      $view_mode = 'teaser_no_overlay';
+    }
   }
 
   if ($context['entity_type'] == 'ting_object' && $view_mode == 'teaser' && theme_get_setting('ting_object_disable_overlay')) {

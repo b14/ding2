@@ -42,6 +42,17 @@ function ddbasic_form_system_theme_settings_alter(&$form, $form_state) {
     '#default_value' => theme_get_setting('ding_group_disable_overlay'),
   );
 
+  $form['ddbasic_settings']['ding_page_overlay'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Ding page overlay'),
+  );
+  $form['ddbasic_settings']['ding_page_overlay']['ding_page_disable_overlay'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Disable overlay'),
+    '#description' => t('Disable gradient overlay with text on Ding page teasers'),
+    '#default_value' => theme_get_setting('ding_page_disable_overlay'),
+  );
+
   $form['ddbasic_settings']['ding_rolltab_overlay'] = array(
     '#type' => 'fieldset',
     '#title' => t('Ding tabroll overlay'),
