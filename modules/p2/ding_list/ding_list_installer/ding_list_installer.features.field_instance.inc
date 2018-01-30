@@ -29,6 +29,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 2,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -71,6 +77,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -112,6 +124,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 4,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -162,6 +180,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 5,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -241,6 +265,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -324,6 +354,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -406,6 +442,15 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'module' => 'ding_base',
+        'settings' => array(
+          'body_snippet_length' => 100,
+        ),
+        'type' => 'body_snippet',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -452,6 +497,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 4,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -497,6 +548,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 7,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -587,6 +644,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -632,6 +695,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 11,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -679,6 +748,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 3,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -725,6 +800,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 6,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -770,6 +851,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 9,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -849,6 +936,12 @@ function ding_list_installer_field_default_field_instances() {
         'weight' => 0,
       ),
       'list_item_thin' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'reference' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -943,6 +1036,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -988,6 +1087,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 8,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -1040,6 +1145,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'number_decimal',
         'weight' => 10,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1091,6 +1202,12 @@ function ding_list_installer_field_default_field_instances() {
         'type' => 'list_default',
         'weight' => 1,
       ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1133,6 +1250,12 @@ function ding_list_installer_field_default_field_instances() {
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 3,
+      ),
+      'reference' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',

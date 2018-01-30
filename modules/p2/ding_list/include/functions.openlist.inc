@@ -22,6 +22,25 @@ function ding_list_reset_openlist_modified($account = NULL) {
 }
 
 /**
+ * Get lists by their openlist id.
+ *
+ * @param array  $openlist_ids
+ *   The openlist ids to load.
+ *
+ * @return array
+ *   All existing lists.
+ */
+function ding_list_load_list_by_openlist_ids($openlist_ids = array()) {
+  $query = new EntityFieldQuery();
+  $result = $query->entityCondition('entity_type', 'ding_type')
+    ->entityCondition('bundle', 'ding_list')
+    ->propertyCondition('openlist_id', $openlist_ids)
+    ->execute();
+
+  return entity_load('ding_type', array_keys($result['ding_type']));
+}
+
+/**
  * Create an array that maps a list of ids, to an entity.
  *
  * @param string $type

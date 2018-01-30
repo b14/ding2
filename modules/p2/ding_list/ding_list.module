@@ -63,6 +63,11 @@ require_once __DIR__ . '/include/functions.inc';
  */
 function ding_list_entity_info_alter(&$entity_info) {
   $entity_info['ding_type']['uri callback'] = 'ding_list__list_uri';
+
+  $entity_info['ding_type']['view modes']['reference'] = array(
+    'label' => t('Reference'),
+    'custom settings' => TRUE,
+  );
 }
 
 /**

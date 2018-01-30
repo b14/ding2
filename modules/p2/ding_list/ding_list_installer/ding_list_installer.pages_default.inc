@@ -1016,4 +1016,5 @@ function ding_list_installer_default_page_manager_pages() {
   $pages['page_ding_list_view'] = $page;
 
   return $pages;
+
 }
