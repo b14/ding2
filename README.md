@@ -1,4 +1,4 @@
-# Ding2 msd pbj
+# Ding2 msd pbj msd
 Ding2 is a continuation of [ding.TING](http://ting.dk/content/om-dingting)
 [Drupal](http://drupal.org/project/drupal) distribution for libraries as part
 of the [TING concept](http://ting.dk).
