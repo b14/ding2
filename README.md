@@ -1,4 +1,4 @@
-# Ding2 msd pbj msd pbj ok ok 
+# Ding2 msd pbj msd pbj ok ok b14cms ok yes from sftp
 Ding2 is a continuation of [ding.TING](http://ting.dk/content/om-dingting)
 [Drupal](http://drupal.org/project/drupal) distribution for libraries as part
 of the [TING concept](http://ting.dk).
@@ -247,7 +247,7 @@ The installation profile also contains a Vanish configuration file (_ding2.vcl_)
 
 The configuration file also limits which server are authenticated/allowed to be upstream proxy for Varnish. This is to ensure that sensitive information is not forwarded to an un-secure proxy as until the SSL proxy the information is not encrypted.
 
-## Apache 
+## Apache
 Apache do not have the SSL module enabled, so it will not set the "_X-Forwarded-Proto_" header from the SSL proxy and Drupal will not be able to detect that it's behind a SSL Proxy. So you have to set the HTTPS flag in your vhost configuration file as shown below.
 
 <pre>
