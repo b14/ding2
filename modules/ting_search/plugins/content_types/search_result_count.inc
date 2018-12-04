@@ -21,7 +21,7 @@ function ting_search_result_count_content_type_render($subtype, $conf, $panel_ar
   $block = new stdClass();
 
   $search_result = ting_search_current_results();
-  if (isset($search_result)) {
+  if (!empty($search_result)) {
     $results = $search_result->getNumTotalObjects();
     $block->content = array(
       'title' => array(
